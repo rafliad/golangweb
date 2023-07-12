@@ -11,7 +11,7 @@ func (p Product) StockStatus() (status string) {
 	if p.Stock < 3 {
 		status = "- stock hampir habis"
 	} else if p.Stock < 10 {
-		status = "- stock terbatas"
+		status = "- stock terbatas "
 	}
 	return
 }
